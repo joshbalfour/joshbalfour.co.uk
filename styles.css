@@ -1,0 +1,19 @@
+.img-me {
+	background: url(img/me.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	width: 250px;
+	height: 250px;
+	border-radius: 100%;
+	margin: auto;
+}
+
+.section {
+	min-height: 650px;
+}
+
+.me .img-me, .me h1, .me h2, .me h3, .me h4 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
