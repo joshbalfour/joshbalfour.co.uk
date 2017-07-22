@@ -10,10 +10,100 @@
 }
 
 .section {
-	min-height: 650px;
+	min-height: 700px;
+}
+
+.navbar {
+	z-index: 1;
+}
+
+.me {
+	z-index: 2;
+}
+
+.whatido {
+	min-height: 400px;
 }
 
 .me .img-me, .me h1, .me h2, .me h3, .me h4 {
 	margin-top: 20px;
 	margin-bottom: 20px;
+}
+
+h6 {
+	font-weight: lighter;
+}
+
+.corbynrun {
+	background: #a42e26;
+	color: white;
+}
+
+.project-logo {
+	display: inline-block;
+	width: 50px;
+	height: 50px;
+}
+
+.section-title {
+	text-align: center;
+	font-size: 48px;
+	margin-bottom: 25px;
+}
+
+.corbynrun-imac {
+	width: 100%;
+	height: auto;
+	z-index: 2;
+}
+
+.corbynrun-iphone {
+	width: 80%;
+	height: auto;
+	margin-left: 20%;
+	margin-top: -100px;
+	z-index: 2;
+}
+
+.ge2017 {
+	background: #f6f6f6;
+}
+
+.ge2017 .team-member {
+	background: black;
+	color: white;
+
+}
+
+.ge2017-iphone, .actively-iphone {
+	height: 450px;
+	width: auto;
+	float: right;
+}
+
+.actively {
+	color: white;
+	background: -moz-linear-gradient(left, #5e41e3 0%, #8643e8 50%, #5e41e3 100%);
+	background: -webkit-linear-gradient(left, #5e41e3 0%, #8643e8 50%, #5e41e3 100%);
+	background: linear-gradient(to right, #5e41e3 0%, #8643e8 50%, #5e41e3 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#5e41e3', endColorstr='#8643e8',GradientType=1 );
+}
+
+.actively-title {
+	margin-bottom: 25px;
+}
+
+.actively-logo {
+	background: url(img/actively-logo.svg);
+	background-repeat: no-repeat;
+	background-size: contain;
+	width: 250px;
+	height: 31px;
+	margin: auto;
+	display: block;
+	margin-top: 25px;
+}
+
+.footer {
+	height: 35px;
 }
