@@ -13,21 +13,18 @@
 	min-height: 700px;
 }
 
-.navbar {
-	z-index: 1;
-}
-
-.me {
-	z-index: 2;
-}
-
 .whatido {
-	min-height: 400px;
+	min-height: 200px;
 }
 
 .me .img-me, .me h1, .me h2, .me h3, .me h4 {
 	margin-top: 20px;
 	margin-bottom: 20px;
+	font-weight: normal;
+}
+
+h2.down-arrow {
+	margin-top: 35px;
 }
 
 h6 {

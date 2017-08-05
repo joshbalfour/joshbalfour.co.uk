@@ -5,11 +5,12 @@
 	<link rel="stylesheet" type="text/css" href="css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="styles.css">
 	<link rel="stylesheet" type="text/css" href="team.css">
+	<link rel="stylesheet" type="text/css" href="triangles.css">
 	<title>Josh Balfour</title>
 </head>
 <body>
 	<div class="container-fluid">
-		<nav class="navbar navbar-toggleable-md fixed-top">
+		<!-- <nav class="navbar navbar-toggleable-md fixed-top">
 			<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
 				<span class="navbar-toggler-icon"></span>
 			</button>
@@ -30,21 +31,26 @@
 					</li>
 				</ul>
 			</div>
-		</nav>
-		<div class="row align-items-center section me" id="top">
+		</nav> -->
+		<div class="row align-items-center section me fancy" id="top">
+			<div class="asteroid"></div>
+			<div class="sun"></div>
+			<div class="ship"></div>
+			<div class="planets"></div>
 			<div class="col-12 col-md-8 mx-auto text-center">
 				<div class="img-me"></div>
-				<h1>Hey, I'm Josh Balfour</h1>
-				<h4>Shoreditch, London // Brooklyn, NY</h4>
-				<h2>Founding Engineer @ <a href="https://actively.ai">actively.ai</a> · Fellow @ <a href="http://nwspk.house">Newspeak House</a></h2>
+				<h1>Josh Balfour</h1>
+				<h2>Founding Engineer <a href="https://actively.ai">actively.ai</a> · Fellow <a href="http://nwspk.house">Newspeak House</a></h2>
 				<h2>Full-stack Web and Native app Developer</h2>
 				<h4>(I'm also sometimes freelance - <a href="mailto:josh@joshbalfour.co.uk">Pitch me your idea</a>)</h4>
+				<h4>Shoreditch, London // Brooklyn, NY</h4>
 				<h2 class="col-12 col-md-9 mx-auto links">
 					<a href="https://twitter.com/intent/user?screen_name=joshbal4">Twitter</a> ·
 					<a href="https://www.github.com/joshbalfour">GitHub</a> ·
 					<a href="https://www.linkedin.com/profile/view?id=167118671">LinkedIn</a> ·
 					<a href="mailto:josh@joshbalfour.co.uk">Email</a>
 				</h2>
+				<h2 class="down-arrow">&#9660;</h2>
 			</div>
 		</div>
 		<div class="row align-items-center section whatido">
@@ -52,7 +58,26 @@
 				<h2>I've been lucky enough to work on a bunch of awesome projects with some amazing people, here are a few:</h2>
 			</div>
 		</div>
-		<div class="row align-items-center section project actively">
+<!-- 		
+		<div class="row align-items-center section project">
+			<div class="col-10 mx-auto">
+				<div class="row">
+					<div class="col-12 text-center">
+						<svg xmlns="http://www.w3.org/2000/svg" version="1.1" class="svg-triangle" width="250" height="250">
+							<defs>
+								<pattern id="imgpattern" x="0" y="0" width="1" height="1">
+									<image width="250" height="250"
+										xlink:href="http://lorempixel.com/animals/250/250/"/>
+								</pattern>
+							</defs>
+							<polygon fill="url(#imgpattern)" points="0,0 250,0 125,250"/>
+						</svg>
+					</div>
+				</div>
+			</div>
+		</div>
+ -->		
+ 		<div class="row align-items-center section project actively">
 			<div class="col-10 mx-auto">
 				<div class="row">
 					<div class="col-12">
@@ -83,6 +108,7 @@
 						<p>~description of what actively is~</p>
 						<p>Featured on ProductHunt</p>
 						<p>In Alpha</p>
+						<a href="https://actively.ai" class="btn btn-lg btn-outline-secondary">Check it out</a>
 					</div>
 					<div class="col-6">
 						<img class="actively-iphone" src="img/actively-iphone.png" />
@@ -126,6 +152,7 @@
 							<li>Ladbible</li>
 							<li>BBC (tv and online)</li>
 						</ul>
+						<a href="https://ge2017.com" class="btn btn-lg btn-outline-primary">Check it out</a>
 					</div>
 					<div class="col-6">
 						<img class="ge2017-iphone" src="img/ge2017-iphone.png" />
@@ -205,6 +232,7 @@
 							<li>The Guardian (print and online)</li>
 							<li>BBC (tv and online)</li>
 						</ul>
+						<a href="https://corbynrun.com" class="btn btn-lg btn-outline-secondary">Check it out</a>
 					</div>
 					<div class="col-6">
 						<img class="corbynrun-imac" src="img/corbynrun-imac.jpg" />
