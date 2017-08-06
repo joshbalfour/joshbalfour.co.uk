@@ -46,6 +46,7 @@ h6 {
 	text-align: center;
 	font-size: 48px;
 	margin-bottom: 25px;
+	margin-top: 25px;
 }
 
 .corbynrun-imac {
@@ -81,7 +82,8 @@ a.no-highlight:hover {
 }
 
 .ge2017-iphone, .actively-iphone {
-	height: 450px;
+	height: 500px;
+	margin-bottom: 25px;
 	width: auto;
 	float: right;
 }
@@ -110,7 +112,8 @@ a.no-highlight:hover {
 }
 
 .footer {
-	height: 35px;
+	padding-top: 10px;
+	height: 55px;
 }
 
 .btn-outline-secondary {
@@ -155,18 +158,36 @@ a.no-highlight:hover {
 	color: #483c6c;
 }
 
-
-
 .primary .social-link {
 	border: 1px solid #0cffe1;
 	color: #0cffe1;
 	background: #483c6c;
 }
 
-
-
 .primary .social-link:hover {
-	border: 1px solid #483c6c;
 	color: #483c6c;
 	background: #0cffe1;
+}
+
+.footer {
+	text-align: center;
+} 
+
+.secondary .social-link {
+	background: white;
+	color: rgb(203, 29, 121);
+	border-color: rgb(203, 29, 121);
+	border: none;
+	width: 35px;
+	height: 35px;
+	font-size: 25px;
+	line-height: 35px;
+	display: inline-block;
+	text-align: center;
+}
+
+.secondary .social-link:hover {
+	color: white;
+	background: rgb(203, 29, 121);
+	border-color: rgb(203, 29, 121);
 }
