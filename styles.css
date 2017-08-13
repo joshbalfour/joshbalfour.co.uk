@@ -1,14 +1,3 @@
-.img-me {
-	background: url(img/me.jpg);
-	background-repeat: no-repeat;
-	background-position: center;
-	background-size: cover;
-	width: 250px;
-	height: 250px;
-	border-radius: 100%;
-	margin: auto;
-}
-
 .section {
 	min-height: 700px;
 }
@@ -136,27 +125,6 @@ a.no-highlight:hover {
 	font-weight: 300;
 }
 
-.social-link {
-	border: 1px solid #ffa283;
-	background: #483c6c;
-	color: #ffa283;
-
-	border-radius: 3px;
-	width: 60px;
-	height: 45px;
-	line-height: 42px;
-	display: inline-block;
-	text-align: center;
-	margin-left: 10px;
-}
-.social-link:first-child {
-	margin-left: 0px;
-}
-
-.social-link:hover {
-	background: #ffa283;
-	color: #483c6c;
-}
 
 .primary .social-link {
 	border: 1px solid #0cffe1;
@@ -191,3 +159,38 @@ a.no-highlight:hover {
 	background: rgb(203, 29, 121);
 	border-color: rgb(203, 29, 121);
 }
+
+
+.image {
+	order: 1;
+	min-width: 275px;
+}
+.text {
+	order: 2;
+}
+
+.btn {
+	width: 100%;
+}
+
+.section {
+	padding-top: 25px;
+	padding-bottom: 25px;
+}
+
+@media (min-width: 768px) {
+	.btn {
+		width: auto;
+	}
+	.image {
+		order: 2;
+	}
+	.text {
+		order: 1;
+	}
+	.section {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+}
+
