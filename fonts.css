@@ -1,0 +1,117 @@
+// Cera Font Family
+//
+//    Black     900     italic
+//    Bold      700     italic
+//    Medium    500     italic
+//    Regular   400     italic
+//    Light     200     italic
+//    Thin      100     italic
+
+@font-face {
+    font-family: 'Cera';
+    src: url('./fonts/cera/cera-black-webfont.eot');
+    src: url('./fonts/cera/cera-black-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/cera/cera-black-webfont.woff2') format('woff2'),
+         url('./fonts/cera/cera-black-webfont.woff') format('woff'),
+         url('./fonts/cera/cera-black-webfont.ttf') format('truetype'),
+         url('./fonts/cera/cera-black-webfont.svg#cerablack') format('svg');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cera';
+    src: url('./fonts/cera/cera-blackitalic-webfont.eot');
+    src: url('./fonts/cera/cera-blackitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/cera/cera-blackitalic-webfont.woff2') format('woff2'),
+         url('./fonts/cera/cera-blackitalic-webfont.woff') format('woff'),
+         url('./fonts/cera/cera-blackitalic-webfont.ttf') format('truetype'),
+         url('./fonts/cera/cera-blackitalic-webfont.svg#cerablack_italic') format('svg');
+    font-weight: 900;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cera';
+    src: url('./fonts/cera/cera-bold-webfont.eot');
+    src: url('./fonts/cera/cera-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/cera/cera-bold-webfont.woff2') format('woff2'),
+         url('./fonts/cera/cera-bold-webfont.woff') format('woff'),
+         url('./fonts/cera/cera-bold-webfont.ttf') format('truetype'),
+         url('./fonts/cera/cera-bold-webfont.svg#cerabold') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cera';
+    src: url('./fonts/cera/cera-bolditalic-webfont.eot');
+    src: url('./fonts/cera/cera-bolditalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/cera/cera-bolditalic-webfont.woff2') format('woff2'),
+         url('./fonts/cera/cera-bolditalic-webfont.woff') format('woff'),
+         url('./fonts/cera/cera-bolditalic-webfont.ttf') format('truetype'),
+         url('./fonts/cera/cera-bolditalic-webfont.svg#cerabold_italic') format('svg');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cera';
+    src: url('./fonts/cera/cera-medium-webfont.eot');
+    src: url('./fonts/cera/cera-medium-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/cera/cera-medium-webfont.woff2') format('woff2'),
+         url('./fonts/cera/cera-medium-webfont.woff') format('woff'),
+         url('./fonts/cera/cera-medium-webfont.ttf') format('truetype'),
+         url('./fonts/cera/cera-medium-webfont.svg#ceramedium') format('svg');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cera';
+    src: url('./fonts/cera/cera-mediumitalic-webfont.eot');
+    src: url('./fonts/cera/cera-mediumitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/cera/cera-mediumitalic-webfont.woff2') format('woff2'),
+         url('./fonts/cera/cera-mediumitalic-webfont.woff') format('woff'),
+         url('./fonts/cera/cera-mediumitalic-webfont.ttf') format('truetype'),
+         url('./fonts/cera/cera-mediumitalic-webfont.svg#ceramedium_italic') format('svg');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cera';
+    src: url('./fonts/cera/cera-regular-webfont.eot');
+    src: url('./fonts/cera/cera-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/cera/cera-regular-webfont.woff2') format('woff2'),
+         url('./fonts/cera/cera-regular-webfont.woff') format('woff'),
+         url('./fonts/cera/cera-regular-webfont.ttf') format('truetype'),
+         url('./fonts/cera/cera-regular-webfont.svg#ceraregular') format('svg');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cera';
+    src: url('./fonts/cera/cera-regularitalic-webfont.eot');
+    src: url('./fonts/cera/cera-regularitalic-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/cera/cera-regularitalic-webfont.woff2') format('woff2'),
+         url('./fonts/cera/cera-regularitalic-webfont.woff') format('woff'),
+         url('./fonts/cera/cera-regularitalic-webfont.ttf') format('truetype'),
+         url('./fonts/cera/cera-regularitalic-webfont.svg#ceraregular') format('svg');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Cera';
+    src: url('./fonts/cera/cera-light-webfont.eot');
+    src: url('./fonts/cera/cera-light-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/cera/cera-light-webfont.woff2') format('woff2'),
+         url('./fonts/cera/cera-light-webfont.woff') format('woff'),
+         url('./fonts/cera/cera-light-webfont.ttf') format('truetype'),
+         url('./fonts/cera/cera-light-webfont.svg#ceralight') format('svg');
+    font-weight: 200;
+    font-style: normal;
+}
+
