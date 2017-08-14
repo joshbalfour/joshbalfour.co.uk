@@ -47,8 +47,8 @@ p, li {
 
 .whatido {
 	min-height: 200px;
-	background: rgb(203, 29, 121);
-	color: white;
+	color: #483c6c;
+	background: white;
 }
 
 h2.down-arrow {
@@ -171,7 +171,8 @@ a.no-highlight:hover {
 
 .leadin {
 	line-height: 1.6em;
-	font-weight: 300;
+	font-weight: 400;
+	text-align: center;
 }
 
 .primary.social-link {
