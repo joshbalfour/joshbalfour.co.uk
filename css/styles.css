@@ -51,7 +51,7 @@ h6, .h6 {
 }
 
 body {
-	font-family: Cera;
+	font-family: Cera, -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 h1 {
@@ -211,7 +211,7 @@ a.no-highlight:hover {
 }
 
 .actively-logo {
-	background: url(img/actively-logo.svg);
+	background: url(../img/actively-logo.svg);
 	background-repeat: no-repeat;
 	background-size: contain;
 	width: 250px;
@@ -263,10 +263,6 @@ a.no-highlight:hover {
 
 /* top section */
 
-.me {
-	
-}
-
 .me .img-me, .me h1, .me h2, .me h3, .me h4 {
 	margin-top: 20px;
 	margin-bottom: 20px;
@@ -274,7 +270,7 @@ a.no-highlight:hover {
 }
 
 .img-me {
-	background: url(img/me.jpg);
+	background: url(../img/me.jpg);
 	background-repeat: no-repeat;
 	background-position: center;
 	background-size: cover;
@@ -300,7 +296,7 @@ a.no-highlight:hover {
 }
 
 .asteroid {
-	background-image: url(img/asteroid.png);
+	background-image: url(../img/asteroid.png);
 	background-repeat: no-repeat;
 	background-size: contain;
 	position: absolute;
@@ -311,7 +307,7 @@ a.no-highlight:hover {
 }
 
 .sun {
-	background-image: url(img/sun.png);
+	background-image: url(../img/sun.png);
 	background-repeat: no-repeat;
 	background-size: contain;
 	position: absolute;
@@ -323,7 +319,7 @@ a.no-highlight:hover {
 }
 
 .ship {
-	background-image: url(img/ship.png);
+	background-image: url(../img/ship.png);
 	background-repeat: no-repeat;
 	background-size: contain;
 	position: absolute;
@@ -336,7 +332,7 @@ a.no-highlight:hover {
 }
 
 .planets {
-	background-image: url(img/saturn.gif);
+	background-image: url(../img/saturn.gif);
 	background-repeat: no-repeat;
 	background-size: contain;
 	position: absolute;
