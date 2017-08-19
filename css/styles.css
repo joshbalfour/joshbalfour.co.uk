@@ -21,6 +21,10 @@ h6, .h6 {
     font-size: 1rem;
 }
 
+a {
+	cursor: pointer;
+}
+
 .btn {
 	display: inline-block;
 	font-weight: normal;
@@ -39,9 +43,7 @@ h6, .h6 {
 	-webkit-transition: all 0.2s ease-in-out;
 	-o-transition: all 0.2s ease-in-out;
 	transition: all 0.2s ease-in-out;
-}
-.btn:hover {
-	text-decoration: none;
+	text-decoration: none !important;
 }
 
 .btn-lg, .btn-group-lg > .btn {
@@ -464,8 +466,18 @@ a.no-highlight:hover {
 	text-decoration: none;
 }
 
+.dot {
+	visibility: hidden;
+	display: block;
+	height: 1rem;
+}
 
 @media (min-width: 768px) {
+	.dot {
+		visibility: visible;
+		display: inline;
+		height: inherit;
+	}
 	.btn {
 		width: auto;
 	}
