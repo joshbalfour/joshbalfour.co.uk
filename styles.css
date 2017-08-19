@@ -402,6 +402,20 @@ a.no-highlight:hover {
 	width: 190px;
 }
 
+.section:not(.me) li {
+	margin-bottom: 10px;
+}
+
+.section:not(.me) a:not(.btn) {
+	color: white;
+	border-bottom: 2px solid white;
+	padding-bottom: 2px;
+}
+
+.section:not(.me) a:not(.btn):hover {
+	text-decoration: none;
+}
+
 
 @media (min-width: 768px) {
 	.btn {
