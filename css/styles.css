@@ -389,10 +389,10 @@ a.no-highlight:hover {
 	text-align: center;
 	margin-left: 10px;
 
-	width: 100px;
-	height: 75px;
-	line-height: 75px;
-	font-size: 45px;
+	width: 60px;
+	height: 60px;
+	line-height: 60px;
+	font-size: 35px;
 }
 .social-link:first-child {
 	margin-left: 0px;
@@ -520,7 +520,7 @@ a.no-highlight:hover {
 		font-size: inherit;
 		width: 60px;
 		height: 45px;
-		line-height: 45px;
+		line-height: 42px;
 
 		margin-left: 20px;
 		margin-right: 20px;

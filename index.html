@@ -14,7 +14,7 @@
 
 	<meta property="og:type" content="website" />
 	<meta property="fb:app_id" content="779129442269021" />
-	<meta property="og:image" content="https://joshbalfour.co.uk/og-image.jpg">
+	<meta property="og:image" content="https://joshbalfour.co.uk/og-image.png">
 	<meta property="og:image:height" content="1257">
 	<meta property="og:image:width" content="2400">
 	<meta property="og:description" content="Full-Stack Web &amp; App Developer &middot; Founding Engineer actively.ai">
@@ -66,7 +66,7 @@
 			</div>
 		</div>
  		<div class="row align-items-center section project actively">
-			<div class="col-12 col-md-10 mx-auto">
+			<div class="col-12 col-md-10 col-lg-8 mx-auto">
 				<div class="row">
 					<div class="col-12">
 						<h2 class="actively-title"><div class="project-logo actively-logo"></div></h2>
@@ -110,7 +110,7 @@
 			</div>
 		</div>
 		<div class="row align-items-center section project ge2017">
-			<div class="col-12 col-md-10 mx-auto">
+			<div class="col-12 col-md-10 col-lg-8 mx-auto">
 				<div class="row">
 					<div class="col-12">
 						<h2 class="section-title"><img class="project-logo" src="img/ge2017-logo.png" /> ge2017.com</h2>
@@ -155,7 +155,7 @@
 			</div>
 		</div>
 		<div class="row align-items-center section project corbynrun">
-			<div class="col-12 col-md-10 mx-auto text">
+			<div class="col-12 col-md-10 col-lg-8 mx-auto text">
 				<div class="row">
 					<div class="col-12">
 						<h2 class="section-title"><img class="project-logo" src="img/corbynrun-app-logo.png" /> CorbynRun</h2>
@@ -269,15 +269,15 @@
 				version    : 'v2.8'
 			})
 			FB.AppEvents.logPageView()
-		}
+		};
 
 		(function(d, s, id){
 			var js, fjs = d.getElementsByTagName(s)[0];
 			if (d.getElementById(id)) {return;}
 			js = d.createElement(s); js.id = id;
-			js.src = "https://connect.facebook.net/en_US/sdk.js";
+			js.src = "//connect.facebook.net/en_US/sdk.js";
 			fjs.parentNode.insertBefore(js, fjs);
-		}(document, 'script', 'facebook-jssdk'))
+		}(document, 'script', 'facebook-jssdk'));
 
 		(function(){
 			var forEach = function (array, callback, scope) {
@@ -292,7 +292,6 @@
 					eventAction: 'click',
 					eventLabel: url,
 				})
-				FB.AppEvents.logEvent('clicked '+url)
 			}
 			forEach(document.querySelectorAll('a'), function (index, ele) {
 				ele.addEventListener("click", onClickHandler)
