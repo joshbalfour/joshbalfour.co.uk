@@ -569,6 +569,60 @@ a.no-highlight:hover {
 	border: 1px solid lightgrey;
 }
 
+.metomic {
+	background: #f6f6f6;
+	box-shadow: rgba(88, 70, 109, 0.3) 0px 4px 10px, rgba(255, 255, 255, 0.1) 0px 0px 10px inset;
+}
+
+.metomic > div {
+	margin-top: 0;
+}
+
+.ultima {
+	min-height: 550px;
+}
+.ultima > div {
+	margin-top: 50px;
+}
+
+.img-me {
+    background-position-y: -13px;
+    background-position-x: 4px;
+}
+
+.metomic .btn {
+	background: rgb(88, 70, 109);
+	color: white;
+}
+
+.project-logo-large {
+	width: 100%;
+	max-width: 250px; 
+}
+
+.product-hunt {
+	display: block;
+	border-bottom: 0px !important;
+}
+
+.metomic-widget {
+	border-radius: 15px;
+	width: 100%;
+}
+
+.ultima {
+	background: #181818;
+	color: white;
+}
+
+.ultima-screenshot {
+	width: 100%;
+}
+
+.github-button-container {
+	display: block;
+}
+
 @media (min-width: 768px) {
 	.dot {
 		visibility: visible;
