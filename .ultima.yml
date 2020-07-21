@@ -1,5 +1,5 @@
 ffsd:
   type: web
-  buildLocation: build
+  buildLocation: /build
   branch-domains:
     master: joshbalfour.co.uk
