@@ -1,5 +1,5 @@
 web:
   type: web
-  buildLocation: /build
+  buildLocation: ""
   branch-domains:
     master: joshbalfour.co.uk
