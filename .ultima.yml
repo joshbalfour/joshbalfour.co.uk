@@ -1,4 +1,4 @@
-ffsd:
+web:
   type: web
   buildLocation: /build
   branch-domains:
