@@ -623,6 +623,53 @@ a.no-highlight:hover {
 	display: block;
 }
 
+.sideprojects {
+	border-bottom: 1px solid #483c6c;
+	padding-bottom: 100px;
+	margin-bottom: 25px;
+}
+
+.sideprojects > div:not(:last-child) {
+	border-right: 1px solid #483c6c;
+}
+
+.sideprojects > div {
+	padding-left: 50px;
+	padding-right: 50px;
+}
+
+.sideprojects h2 {
+	font-size: 24px;
+	text-align: left;
+}
+
+.sideprojects h2 img {
+	margin-right: 10px;
+	width: unset;
+}
+
+.sideprojects .btn {
+	border-color: #483c6c;
+}
+.sideprojects .btn:hover {
+	background: #483c6c;
+	color: white;
+	border-color: white;
+}
+
+
+.sideprojects > div > .row {
+	height: 100%;
+}
+
+.sideprojects > div > .row > .col-12 {
+	display: flex;
+	flex-direction: column;
+}
+.sideprojects > div > .row > .col-12 p {
+	flex: 1;
+}
+
 @media (min-width: 768px) {
 	.dot {
 		visibility: visible;
